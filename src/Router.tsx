@@ -4,11 +4,13 @@ import { createMaterialTopTabNavigator } from "react-navigation-tabs";
 
 import HomeScreen from "./screens/HomeScreen";
 import DetailsScreen from "./screens/DetailsScreent";
+import GeolocationTestScreen from "./screens/GeolocationTestScreen";
 
 const HomeStack = createMaterialTopTabNavigator(
   {
     Home: HomeScreen,
-    Details: DetailsScreen
+    Details: DetailsScreen,
+    Geolocation: GeolocationTestScreen
   },
   {
     tabBarOptions: {

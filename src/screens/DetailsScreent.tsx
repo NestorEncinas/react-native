@@ -10,7 +10,7 @@ const DetailsScreen: React.FC<NavigationStackScreenProps> = ({
       <Text>Details Screen</Text>
       <Button
         title="Go to Home Page"
-        onPress={() => navigation.navigate("Home")}
+        onPress={() => navigation.navigate("Geolocation")}
       >
         Home
       </Button>
