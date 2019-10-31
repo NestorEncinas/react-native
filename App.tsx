@@ -1,21 +1,13 @@
 import React from "react";
-// import { StyleSheet } from "react-native";
 
+import DetailsScreen from "./src/screens/DetailsScreent";
 import Router from "./src/Router";
 
 export default function App() {
   return (
     <>
       <Router />
+      {/* <DetailsScreen /> */}
     </>
   );
 }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: "#fff",
-//     alignItems: "center",
-//     justifyContent: "center"
-//   }
-// });
