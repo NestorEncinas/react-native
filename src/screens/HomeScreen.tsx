@@ -18,7 +18,7 @@ const HomeScreen: NavigationStackScreenComponent<HomeScreenProps> = ({
   return (
     <>
       <Image
-        source={require("../images/homePage.jpeg")}
+        source={require("../assets/homePage.jpeg")}
         style={{ width: 450 }}
       />
       <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
@@ -35,7 +35,13 @@ const HomeScreen: NavigationStackScreenComponent<HomeScreenProps> = ({
 };
 
 HomeScreen.navigationOptions = {
-  header: null
+  headerRight: () => (
+    <Button
+      onPress={() => alert("This is a button!")}
+      title="Info"
+      color="#fff"
+    />
+  )
 };
 
 export default HomeScreen;
