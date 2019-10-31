@@ -29,7 +29,6 @@ const GeolocationTestScreen = () => {
   //   useEffect(() => {
 
   const WEATHER_API_KEY = "f0b5bf039eb471a0d6b80fc4f8ab3af7";
-  const API_KEY = "AIzaSyD-lns7T5WlOyGARUCQzM2SPbYnpVLlxp4";
 
   // Life Cycle
   useEffect(() => {
